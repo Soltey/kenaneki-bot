@@ -9,15 +9,7 @@ console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 
 bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
 
-bot.user.setGame("-help for help!!!,  https://twitch.com/soltey") {
-    if ("!-help for help!!!") return this.setPresence({ -help for help!!!: null });
-    return this.setPresence({
-      game: {
-        name: -help for help!!!,
-        url: https://twitch.com/soltey,
-      },
-    });
-  }
+bot.user.setGame('-help for help!!!', ' https://twitch.com/soltey')
 
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
