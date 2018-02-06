@@ -9,7 +9,7 @@ console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 
 bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
 
-bot.user.setActivity('-help for Help!!!')
+bot.user.setPresence({ game: { name: '-help for Help!!!', type: 0 } });
 
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
