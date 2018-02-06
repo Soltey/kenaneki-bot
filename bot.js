@@ -7,13 +7,10 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.user.setStatus(`dnd`)
+bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
 
-bot.user.setGame(`-help for help!`)
+bot.setGame('-help for help!!')
 
-bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DR6USA.pkt2EkGTjus_kSB7Dd2ZQrJPfSs")
-
-  
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
   if(msg.content === prefix + "happy") {
