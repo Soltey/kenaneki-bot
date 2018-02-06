@@ -9,10 +9,7 @@ console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 
 bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
 
- bot.user.setActivity('-help for help!!!', { // Your status
- 'type': 'STREAMING', // Change to WATCHING or LISTENING for those
- 'url': 'https://twitch.tv/twitch' // Remove this line and the comma in the line before
- });
+bot.user.setActivity('-help for help!!!', {type: 'STREAMING', url: 'https://twitch.tv/soltey%26'});
 
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
