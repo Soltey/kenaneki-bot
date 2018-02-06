@@ -7,7 +7,9 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.user.setStatus(`-help for help`)
+bot.user.setStatus(`dnd`)
+
+bot.user.setGame(`-help for help!`)
 
 bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DR6USA.pkt2EkGTjus_kSB7Dd2ZQrJPfSs")
 
