@@ -9,10 +9,6 @@ console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 
 bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
 
-return console.log(11.2.1);
-
-bot.user.setGame('-help for help!!!', ' https://twitch.com/soltey')
-
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
   if(msg.content === prefix + "happy") {
