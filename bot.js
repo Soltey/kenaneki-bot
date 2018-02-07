@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-const prefix = "~"
+const prefix = "-"
 
 bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
