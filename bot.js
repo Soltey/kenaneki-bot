@@ -7,7 +7,7 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVxj-w.rVxMa86JBm1RzkAGqYx-BZ8OFt8")
+bot.login("process.env.MzkzNzUwNDY0MzQ2MzI1MDA0.DVxpYg.ETXlCnHq-ZN3KcuA-V6FzM9oFkE")
 
 
 bot.on("message", function(msg) {
