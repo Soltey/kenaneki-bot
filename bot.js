@@ -7,7 +7,7 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.login("process.env.BOT_TOKEN")
+bot.login(process.env.BOT_TOKEN)
 
 
 bot.on("message", function(msg) {
