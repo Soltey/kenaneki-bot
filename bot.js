@@ -1,13 +1,14 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-const prefix = "-"
+const prefix = "~"
 
 bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVnDkA.tSG6xF0j_GPBaE5ELqurZfhuOGU")
+bot.login("MzkzNzUwNDY0MzQ2MzI1MDA0.DVxj-w.rVxMa86JBm1RzkAGqYx-BZ8OFt8")
+
 
 bot.on("message", function(msg) {
     console.log(`${msg.author.tag} in #${msg.channel.name} = ${msg.content}`)
