@@ -7,7 +7,7 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.login("process.env.BOT_TOKEN")
+bot.login(process.env.BOT_TOKEN)
 
 
 bot.on("message", function(msg) {
@@ -98,5 +98,8 @@ bot.on("message", function(msg) {
     }
     if(msg.content === prefix + "whoisinyourpfp") {
       msg.channel.send(`The person in my profile picture is Kaneki from Tokyo Ghoul`)
+    }
+     if(msg.content === prefix + "kill" + `${target.username}`) {
+      msg.channel.send(`${msg.author} has killed ${target.username}`)
     }
     })
