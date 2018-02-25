@@ -7,7 +7,7 @@ bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
 });
 
-bot.login("process.env.BOT_TOKEN")
+bot.login(process.env.BOT_TOKEN)
 
 
 bot.on("message", function(msg) {
@@ -31,7 +31,7 @@ bot.on("message", function(msg) {
     }
     if(msg.content === prefix + "help") {
       msg.channel.send(`I have gave you a list of commands in your DMs`)
-        msg.author.send(kenkanekibot/commands.json)
+        msg.author.send(`Open the link so you can see the commands.https://pastebin.com/c5BGhbyd `)
       }
     if(msg.content === prefix + "inlove") {
       msg.channel.send(`${msg.author} is in love with someone 😍`)
@@ -98,5 +98,5 @@ bot.on("message", function(msg) {
     }
     if(msg.content === prefix + "whoisinyourpfp") {
       msg.channel.send(`The person in my profile picture is Kaneki from Tokyo Ghoul`)
-      }
+    }
     })
