@@ -32,7 +32,7 @@ bot.on("message", function(msg) {
     }
     if(msg.content === prefix + "help") {
       msg.channel.send(`I have gave you a list of commands in your DMs`)
-        msg.author.send(F:\KenKaneki\Storage\Commands.json)
+        msg.author.send(kenkanekibot/commands.json)
       }
     if(msg.content === prefix + "inlove") {
       msg.channel.send(`${msg.author} is in love with someone 😍`)
