@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 const prefix = "-"
-const help = path === F:\KenKaneki\Storage\Commands.json
+const help = path === kenkanekibot/commands.json
 
 bot.on("ready", () => {
 console.log("Ready as " + bot.user.username + "#" + bot.user.discriminator);
